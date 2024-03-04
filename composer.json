@@ -1,0 +1,15 @@
+{
+    "name": "miet/better_orioks_parser_service",
+    "autoload": {
+        "psr-4": {
+            "Miet\\BetterOrioksParserService\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "yanetto",
+            "email": "89203732802es@gmail.com"
+        }
+    ],
+    "require": {}
+}
