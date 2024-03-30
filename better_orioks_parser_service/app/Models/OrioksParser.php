@@ -1,7 +1,6 @@
 <?php
 namespace App\Models;
 use DOMDocument;
-use Dotenv\Parser\Parser;
 
 class OrioksParser{
     public static function getIdentity(string $cookie): string
@@ -16,12 +15,11 @@ class OrioksParser{
         );
 
         $context = stream_context_create($opts);
-        $file = file_get_contents('https://orioks.miet.ru/student/student', false, $context);
+        file_get_contents('https://orioks.miet.ru/student/student', false, $context);
 
         $line = $http_response_header[10];
-        $orioks_identity = substr($line, 28, strpos($line, ';') - 28);
 
-        return $orioks_identity;
+        return substr($line, 28, strpos($line, ';') - 28);
 
         //for ($i = 0; $i < sizeof($http_response_header); $i++) {
         //echo ("$http_response_header[$i]\n");
