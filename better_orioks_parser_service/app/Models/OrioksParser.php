@@ -20,6 +20,6 @@ $file = file_get_contents('https://orioks.miet.ru/student/student', false, $cont
 //}
 $line = $http_response_header[10];
 $orioks_identity = substr($line, 28, strpos($line, ';') - 28);
-echo("$line\n");
-echo($orioks_identity);
+//echo("$line\n");
+//echo($orioks_identity);
 

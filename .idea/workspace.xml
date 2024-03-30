@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04ad9504-bd1c-4b27-919e-55f39316afce" name="Changes" comment="- added OrioksRepository class">
-      <change afterPath="$PROJECT_DIR$/OrioksParser.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="04ad9504-bd1c-4b27-919e-55f39316afce" name="Changes" comment="- added OrioksParser.php">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrioksParser.php" beforeDir="false" afterPath="$PROJECT_DIR$/better_orioks_parser_service/app/Models/OrioksParser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrioksRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/better_orioks_parser_service/app/Models/OrioksRepository.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +30,20 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "yanetto"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="ac70bc8d-e925-409e-9f5f-c3567ec73655" />
+        <option name="url" value="https://github.com/yanetto/better_orioks_parser_service.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -176,6 +190,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "PHP Script.OrioksParser.php.executor": "Run",
+    "Pest.better_orioks_parser_service.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "work",
@@ -188,6 +203,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/better_orioks_parser_service/app/Models" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="better_orioks_parser_service" type="PestRunConfigurationType">
       <option name="pestRunnerSettings">
@@ -218,7 +238,8 @@
       <workItem from="1709542922479" duration="2927000" />
       <workItem from="1709555625372" duration="1740000" />
       <workItem from="1710840786899" duration="604000" />
-      <workItem from="1710844342889" duration="3422000" />
+      <workItem from="1710844342889" duration="3670000" />
+      <workItem from="1711792077640" duration="3812000" />
     </task>
     <task id="LOCAL-00001" summary="- added hello file">
       <option name="closed" value="true" />
@@ -236,7 +257,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709545546591</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="- added OrioksParser.php">
+      <option name="closed" value="true" />
+      <created>1710848155499</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1710848155499</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,6 +274,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="- added hello file" />
     <MESSAGE value="- added OrioksRepository class" />
-    <option name="LAST_COMMIT_MESSAGE" value="- added OrioksRepository class" />
+    <MESSAGE value="- added OrioksParser.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="- added OrioksParser.php" />
   </component>
 </project>

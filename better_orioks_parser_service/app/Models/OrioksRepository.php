@@ -1,4 +1,7 @@
 <?php
+
+namespace App\Models;
+
 class OrioksRepository
 {
     private $subjects;
@@ -11,14 +14,17 @@ class OrioksRepository
         $this->marks = $marks;
         $this->control_events = $control_events;
     }
+
     public function getSubjects()
     {
         return $this->subjects;
     }
+
     public function getMarks()
     {
         return $this->marks;
     }
+
     public function getControlEvents()
     {
         return $this->control_events;
