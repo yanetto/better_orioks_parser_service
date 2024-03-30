@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04ad9504-bd1c-4b27-919e-55f39316afce" name="Changes" comment="- added Laravel">
+    <list default="true" id="04ad9504-bd1c-4b27-919e-55f39316afce" name="Changes" comment="- removed .idea">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/better_orioks_parser_service/app/Models/OrioksParser.php" beforeDir="false" afterPath="$PROJECT_DIR$/better_orioks_parser_service/app/Models/OrioksParser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/better_orioks_parser_service/app/Models/OrioksRepository.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +22,9 @@
   </component>
   <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution />
+    <execution>
+      <executable path="composer" />
+    </execution>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -188,6 +192,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JavaScript Debug.OrioksParser.php.executor": "Run",
     "PHP Script.OrioksParser.php.executor": "Run",
     "Pest.better_orioks_parser_service.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -238,7 +243,7 @@
       <workItem from="1709555625372" duration="1740000" />
       <workItem from="1710840786899" duration="604000" />
       <workItem from="1710844342889" duration="3670000" />
-      <workItem from="1711792077640" duration="4114000" />
+      <workItem from="1711792077640" duration="17613000" />
     </task>
     <task id="LOCAL-00001" summary="- added hello file">
       <option name="closed" value="true" />
@@ -272,7 +277,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711795960582</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="- removed .idea">
+      <option name="closed" value="true" />
+      <created>1711796239779</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1711796239779</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,6 +296,7 @@
     <MESSAGE value="- added OrioksRepository class" />
     <MESSAGE value="- added OrioksParser.php" />
     <MESSAGE value="- added Laravel" />
-    <option name="LAST_COMMIT_MESSAGE" value="- added Laravel" />
+    <MESSAGE value="- removed .idea" />
+    <option name="LAST_COMMIT_MESSAGE" value="- removed .idea" />
   </component>
 </project>
