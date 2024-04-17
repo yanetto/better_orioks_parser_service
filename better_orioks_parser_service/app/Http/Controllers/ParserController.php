@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 
 class ParserController extends Controller
 {
-    public function getMarks(Request $request):JsonResponse
+    public function getMarks(Request $request): JsonResponse
     {
         $auth_string = $request -> header('Auth-String');
         $marks = Parser::getMarks($auth_string);
@@ -18,11 +18,11 @@ class ParserController extends Controller
         return response()->json($marks_json)->header('Identity', $identity);
     }
 
-    public function getNewsId(Request $request): JsonResponse
+    public function getNews(Request $request): JsonResponse
     {
         $auth_string = $request -> header('Auth-String');
-        $newsId = Parser::getNewsId($auth_string);
+        $news = Parser::getNews($auth_string);
 
-        return response()->json($newsId);
+        return response()->json($news);
     }
 }
