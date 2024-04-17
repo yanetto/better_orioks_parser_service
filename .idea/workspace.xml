@@ -4,66 +4,72 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04ad9504-bd1c-4b27-919e-55f39316afce" name="Changes" comment="- added unversioned files">
-      <change afterPath="$PROJECT_DIR$/better_orioks_parser_service/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/better_orioks_parser_service/.env.example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/better_orioks_parser_service/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/better_orioks_parser_service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/better_orioks_parser_service/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/better_orioks_parser_service/app/Http/Controllers/Controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/better_orioks_parser_service/app/Models/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/better_orioks_parser_service/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/better_orioks_parser_service/artisan" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/better_orioks_parser_service/bootstrap/app.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/better_orioks_parser_service/bootstrap/cache/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/better_orioks_parser_service/bootstrap/providers.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/better_orioks_parser_service/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/better_orioks_parser_service/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/better_orioks_parser_service/config/app.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/better_orioks_parser_service/config/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/better_orioks_parser_service/config/cache.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/better_orioks_parser_service/config/database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/better_orioks_parser_service/config/filesystems.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/better_orioks_parser_service/config/logging.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/better_orioks_parser_service/config/mail.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/better_orioks_parser_service/config/queue.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/better_orioks_parser_service/config/services.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/better_orioks_parser_service/config/session.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/better_orioks_parser_service/database/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/better_orioks_parser_service/database/factories/UserFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/better_orioks_parser_service/database/migrations/0001_01_01_000000_create_users_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/better_orioks_parser_service/database/migrations/0001_01_01_000001_create_cache_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/better_orioks_parser_service/database/migrations/0001_01_01_000002_create_jobs_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/better_orioks_parser_service/database/migrations/2024_03_30_101119_create_users_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/better_orioks_parser_service/database/seeders/DatabaseSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/better_orioks_parser_service/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/better_orioks_parser_service/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/better_orioks_parser_service/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/better_orioks_parser_service/public/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/better_orioks_parser_service/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/better_orioks_parser_service/public/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/better_orioks_parser_service/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/better_orioks_parser_service/resources/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/better_orioks_parser_service/resources/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/better_orioks_parser_service/resources/js/bootstrap.js" afterDir="false" />
+    <list default="true" id="04ad9504-bd1c-4b27-919e-55f39316afce" name="Changes" comment="- added files">
+      <change afterPath="$PROJECT_DIR$/better_orioks_parser_service/app/Http/Controllers/ParserController.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/better_orioks_parser_service/resources/views/welcome.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/better_orioks_parser_service/routes/console.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/better_orioks_parser_service/routes/web.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/better_orioks_parser_service/storage/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/better_orioks_parser_service/storage/app/public/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/better_orioks_parser_service/storage/framework/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/better_orioks_parser_service/storage/framework/cache/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/better_orioks_parser_service/storage/framework/cache/data/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/better_orioks_parser_service/storage/framework/sessions/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/better_orioks_parser_service/storage/framework/testing/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/better_orioks_parser_service/storage/framework/views/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/better_orioks_parser_service/storage/logs/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/better_orioks_parser_service/tests/Feature/ExampleTest.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/better_orioks_parser_service/tests/Pest.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/better_orioks_parser_service/tests/TestCase.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/better_orioks_parser_service/tests/Unit/ExampleTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/better_orioks_parser_service/vite.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/better_orioks_parser_service/app/Models/OrioksParser.php" beforeDir="false" afterPath="$PROJECT_DIR$/better_orioks_parser_service/app/Models/OrioksParser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/better_orioks_parser_service/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/better_orioks_parser_service/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/better_orioks_parser_service/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/better_orioks_parser_service/.env.example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/better_orioks_parser_service/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/better_orioks_parser_service/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/better_orioks_parser_service/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/better_orioks_parser_service/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/better_orioks_parser_service/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/better_orioks_parser_service/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/better_orioks_parser_service/app/Http/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/better_orioks_parser_service/app/Http/Controllers/Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/better_orioks_parser_service/app/Models/OrioksParser.php" beforeDir="false" afterPath="$PROJECT_DIR$/better_orioks_parser_service/app/Http/Controllers/OrioksParser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/better_orioks_parser_service/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/better_orioks_parser_service/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/better_orioks_parser_service/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/better_orioks_parser_service/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/better_orioks_parser_service/bootstrap/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/better_orioks_parser_service/bootstrap/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/better_orioks_parser_service/bootstrap/cache/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/better_orioks_parser_service/bootstrap/cache/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/better_orioks_parser_service/bootstrap/providers.php" beforeDir="false" afterPath="$PROJECT_DIR$/better_orioks_parser_service/bootstrap/providers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/better_orioks_parser_service/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/better_orioks_parser_service/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/better_orioks_parser_service/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/better_orioks_parser_service/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/better_orioks_parser_service/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/better_orioks_parser_service/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/better_orioks_parser_service/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/better_orioks_parser_service/config/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/better_orioks_parser_service/config/cache.php" beforeDir="false" afterPath="$PROJECT_DIR$/better_orioks_parser_service/config/cache.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/better_orioks_parser_service/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/better_orioks_parser_service/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/better_orioks_parser_service/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/better_orioks_parser_service/config/filesystems.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/better_orioks_parser_service/config/logging.php" beforeDir="false" afterPath="$PROJECT_DIR$/better_orioks_parser_service/config/logging.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/better_orioks_parser_service/config/mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/better_orioks_parser_service/config/mail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/better_orioks_parser_service/config/queue.php" beforeDir="false" afterPath="$PROJECT_DIR$/better_orioks_parser_service/config/queue.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/better_orioks_parser_service/config/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/better_orioks_parser_service/config/services.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/better_orioks_parser_service/config/session.php" beforeDir="false" afterPath="$PROJECT_DIR$/better_orioks_parser_service/config/session.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/better_orioks_parser_service/database/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/better_orioks_parser_service/database/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/better_orioks_parser_service/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/better_orioks_parser_service/database/factories/UserFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/better_orioks_parser_service/database/migrations/0001_01_01_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/better_orioks_parser_service/database/migrations/0001_01_01_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/better_orioks_parser_service/database/migrations/0001_01_01_000001_create_cache_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/better_orioks_parser_service/database/migrations/0001_01_01_000001_create_cache_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/better_orioks_parser_service/database/migrations/0001_01_01_000002_create_jobs_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/better_orioks_parser_service/database/migrations/0001_01_01_000002_create_jobs_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/better_orioks_parser_service/database/migrations/2024_03_30_101119_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/better_orioks_parser_service/database/migrations/2024_03_30_101119_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/better_orioks_parser_service/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/better_orioks_parser_service/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/better_orioks_parser_service/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/better_orioks_parser_service/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/better_orioks_parser_service/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/better_orioks_parser_service/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/better_orioks_parser_service/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/better_orioks_parser_service/phpunit.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/better_orioks_parser_service/public/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/better_orioks_parser_service/public/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/better_orioks_parser_service/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/better_orioks_parser_service/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/better_orioks_parser_service/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/better_orioks_parser_service/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/better_orioks_parser_service/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/better_orioks_parser_service/public/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/better_orioks_parser_service/resources/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/better_orioks_parser_service/resources/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/better_orioks_parser_service/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/better_orioks_parser_service/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/better_orioks_parser_service/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/better_orioks_parser_service/resources/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/better_orioks_parser_service/routes/console.php" beforeDir="false" afterPath="$PROJECT_DIR$/better_orioks_parser_service/routes/console.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/better_orioks_parser_service/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/better_orioks_parser_service/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/better_orioks_parser_service/storage/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/better_orioks_parser_service/storage/app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/better_orioks_parser_service/storage/app/public/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/better_orioks_parser_service/storage/app/public/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/better_orioks_parser_service/storage/framework/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/better_orioks_parser_service/storage/framework/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/better_orioks_parser_service/storage/framework/cache/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/better_orioks_parser_service/storage/framework/cache/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/better_orioks_parser_service/storage/framework/cache/data/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/better_orioks_parser_service/storage/framework/cache/data/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/better_orioks_parser_service/storage/framework/sessions/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/better_orioks_parser_service/storage/framework/sessions/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/better_orioks_parser_service/storage/framework/testing/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/better_orioks_parser_service/storage/framework/testing/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/better_orioks_parser_service/storage/framework/views/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/better_orioks_parser_service/storage/framework/views/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/better_orioks_parser_service/storage/logs/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/better_orioks_parser_service/storage/logs/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/better_orioks_parser_service/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/better_orioks_parser_service/vite.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,12 +95,12 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "yanetto"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;yanetto&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -234,6 +240,7 @@
       <path value="$PROJECT_DIR$/better_orioks_parser_service/vendor/phpdocumentor/reflection-docblock" />
       <path value="$PROJECT_DIR$/better_orioks_parser_service/vendor/phpdocumentor/type-resolver" />
       <path value="$PROJECT_DIR$/better_orioks_parser_service/vendor/graham-campbell/result-type" />
+      <path value="$PROJECT_DIR$/better_orioks_parser_service/vendor/laravel/sanctum" />
     </include_path>
   </component>
   <component name="ProjectColorInfo">{
@@ -245,23 +252,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JavaScript Debug.OrioksParser.php.executor": "Run",
-    "PHP Script.OrioksParser.php.executor": "Run",
-    "Pest.better_orioks_parser_service.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "work",
-    "last_opened_file_path": "/home/miet/labs/better_orioks_parser_service",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JavaScript Debug.OrioksParser.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.OrioksParser.php.executor&quot;: &quot;Run&quot;,
+    &quot;Pest.better_orioks_parser_service.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;work&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/miet/labs/better_orioks_parser_service&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/better_orioks_parser_service/app/Models" />
@@ -298,7 +305,12 @@
       <workItem from="1709555625372" duration="1740000" />
       <workItem from="1710840786899" duration="604000" />
       <workItem from="1710844342889" duration="3670000" />
-      <workItem from="1711792077640" duration="18163000" />
+      <workItem from="1711792077640" duration="18387000" />
+      <workItem from="1711969505082" duration="152000" />
+      <workItem from="1711975210213" duration="1948000" />
+      <workItem from="1713258448153" duration="14891000" />
+      <workItem from="1713339871150" duration="3892000" />
+      <workItem from="1713350177944" duration="2094000" />
     </task>
     <task id="LOCAL-00001" summary="- added hello file">
       <option name="closed" value="true" />
@@ -348,7 +360,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711811817190</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="- added files">
+      <option name="closed" value="true" />
+      <created>1711812312031</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1711812312031</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -362,6 +382,7 @@
     <MESSAGE value="- removed .idea" />
     <MESSAGE value="- added Parser" />
     <MESSAGE value="- added unversioned files" />
-    <option name="LAST_COMMIT_MESSAGE" value="- added unversioned files" />
+    <MESSAGE value="- added files" />
+    <option name="LAST_COMMIT_MESSAGE" value="- added files" />
   </component>
 </project>
