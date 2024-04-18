@@ -11,5 +11,7 @@
             "email": "89203732802es@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "darkaonline/l5-swagger": "^8.6"
+    }
 }

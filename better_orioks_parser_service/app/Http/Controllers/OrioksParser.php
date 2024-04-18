@@ -5,7 +5,7 @@ use Illuminate\Support\Facades\Http;
 
 class OrioksParser extends Controller
 {
-    public static function getNews(string $cookie): string
+    public static function getNews(string $cookie): ?string
     {
         $html = Http::withHeaders([
             'Accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
@@ -30,6 +30,8 @@ class OrioksParser extends Controller
             }
         }
 
+        //$id = (string)((int)$id + 1);
+
         foreach ($dom->getElementsByTagName('td') as $node) {
             if (!str_contains($node->nodeValue, ':')) {
                 $name = $node->nodeValue;
@@ -37,10 +39,14 @@ class OrioksParser extends Controller
             }
         }
 
+        if ($name == ''){
+            return null;
+        }
+
         return json_encode(array('name' => $name, 'id' => $id, 'url' => $url), JSON_UNESCAPED_UNICODE);
     }
 
-    public static function getMarks(string $cookie): array
+    public static function getMarks(string $cookie): ?array
     {
         $html = Http::withHeaders([
             'Accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
@@ -60,6 +66,11 @@ class OrioksParser extends Controller
         $dom->preserveWhiteSpace = false;
 
         $forang_div = $dom->getElementById('forang');
+
+        if ($forang_div == null) {
+            return null;
+        }
+
         $marks_and_subjects = $forang_div->nodeValue;
         $decoded_json = json_decode($marks_and_subjects, true);
 
@@ -86,6 +97,7 @@ class OrioksParser extends Controller
             }
         }
 
+        //$result[0]['user_score'] = 999;
         return [
             'identity' => $identity,
             'json' => json_encode($result, JSON_UNESCAPED_UNICODE)
