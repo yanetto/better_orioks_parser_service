@@ -1,0 +1,106 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "Better Orioks Parser Service API",
+        "contact": {
+            "name": "Ekaterina",
+            "email": "kamshilovaes@yandex.ru"
+        },
+        "version": "1"
+    },
+    "paths": {
+        "/api/v1/marks": {
+            "get": {
+                "tags": [
+                    "Marks"
+                ],
+                "summary": "Get marks",
+                "operationId": "108f8cdeb1857c11d23e9436c1041eed",
+                "parameters": [
+                    {
+                        "name": "Auth-String",
+                        "in": "query",
+                        "description": "Authorization String",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful response",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "properties": {
+                                        "subject_id": {
+                                            "type": "integer"
+                                        },
+                                        "subject_name": {
+                                            "type": "string"
+                                        },
+                                        "control_event_id": {
+                                            "type": "integer"
+                                        },
+                                        "control_event_name": {
+                                            "type": "string"
+                                        },
+                                        "user_score": {
+                                            "type": "number",
+                                            "format": "float"
+                                        }
+                                    },
+                                    "type": "object"
+                                }
+                            }
+                        }
+                    },
+                    "401": {
+                        "description": "Unauthorized"
+                    }
+                }
+            }
+        },
+        "/api/v1/news": {
+            "get": {
+                "tags": [
+                    "News"
+                ],
+                "summary": "Get last news",
+                "operationId": "2a15c018ae67e24c04f660bdb14f6fe3",
+                "parameters": [
+                    {
+                        "name": "Auth-String",
+                        "in": "query",
+                        "description": "Authorization String",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful response",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "properties": {
+                                        "name": {
+                                            "type": "string"
+                                        },
+                                        "id": {
+                                            "type": "integer"
+                                        },
+                                        "url": {
+                                            "type": "string"
+                                        }
+                                    },
+                                    "type": "object"
+                                }
+                            }
+                        }
+                    },
+                    "401": {
+                        "description": "Unauthorized"
+                    }
+                }
+            }
+        }
+    }
+}
